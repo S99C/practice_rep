@@ -158,6 +158,11 @@ hr
     align-items: center;
 }
 
+.my_skills #dd img
+{
+    filter: invert(50%);
+}
+
 .my_skills #mysk
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
@@ -218,6 +223,15 @@ hr
     margin: auto;
     text-align: center;
     padding: 1.5rem 0rem;
+}
+@media only screen and (max-width: 1045px) {
+    #get_in_touch
+{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 1.5rem 0rem;
+}
 }
 
 #get_in_touch h2, #get_in_touch h3
