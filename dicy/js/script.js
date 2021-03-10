@@ -22,5 +22,5 @@ var rolly = ()=> {
         document.getElementById("winr1").style.visibility = "hidden";
         document.getElementById("reslt1").innerHTML = "Score = " + rand_var1 + " Draw!!!";
     }
-
+    
 }
