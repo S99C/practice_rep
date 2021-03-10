@@ -5,8 +5,8 @@ var rolly = ()=> {
     console.log(document.getElementById("reslt1").innerHTML = "Score = " + rand_var1);
     console.log(document.getElementById("reslt2").innerHTML = "Score = " + rand_var2);
     
-    document.getElementById("img1").src = "dicy/images/dice" + rand_var1 + ".png";
-    document.getElementById("img2").src = "dicy/images/dice" + rand_var2 + ".png";
+    document.getElementById("img1").src = "images/dice" + rand_var1 + ".png";
+    document.getElementById("img2").src = "images/dice" + rand_var2 + ".png";
 
     if(rand_var1>rand_var2){
         document.getElementById("winr1").style.visibility = "visible";
