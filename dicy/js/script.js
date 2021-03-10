@@ -18,9 +18,9 @@ var rolly = ()=> {
     }
     else if(rand_var1 === rand_var2){
         document.getElementById("winr2").style.visibility = "hidden";
-        document.getElementById("reslt2").innerHTML = "Score = " + rand_var2 + " Draw!!!";
+        document.getElementById("reslt2").innerHTML = "Draw!!!";
         document.getElementById("winr1").style.visibility = "hidden";
-        document.getElementById("reslt1").innerHTML = "Score = " + rand_var1 + " Draw!!!";
+        document.getElementById("reslt1").innerHTML = "Draw!!!";
     }
     
 }
