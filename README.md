@@ -11,4 +11,4 @@
 <br>
 #dicy(dice_game): https://s99c.github.io/practice_rep/dicy/
 <br>
-https://s99c.github.io/practice_rep/au2_drumkit/
+#au2_DrumKit: https://s99c.github.io/practice_rep/au2_drumkit/
