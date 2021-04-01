@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Healthify</title>
+</head>
+
+<body>
+
+    <div class="main_container">
+
+        <section class="navbar">
+            <div>
+                <img id="logo" src="images/Logo.png" alt="logo_img">
+            </div>
+
+            <div class="nav_bar">
+                <ul>
+                    <li><a class="nav" href="#">About</a></li>
+                    <li><a class="nav" href="#">Contact</a></li>
+                    <li><a class="nav" href="#">Credits</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="top_main_box">
+
+            <div class="bmi_box">
+
+                <form id="bmi_opts" action="#" autocomplete="off">
+                    <h3>Know Your BMI</h3>
+                    <label for="bmi_w">
+                        <span id="wt">Weight:</span>
+                        <input type="text" id="bmi_w" placeholder="Kg">
+                    </label>
+                    <label for="bmi_h">
+                        <span id="ht">Height:</span>
+                        <input type="text" id="bmi_h" placeholder="Cm">
+                    </label>
+                    <label>
+                        BMI:
+                        <output type="text">Kg/(Cm<sup>2</sup>)</output>
+                    </label>
+                    <button type="button" id="calc" onkeypress="key_evt(event, this)"
+                        onclick="calc_bmi()">Calculate</button>
+                    <button type="button" id="rfsh" onclick="refreshPage()">Refresh</button>
+                </form>
+
+                <ul>
+                    <li><a href="https://www.nhlbi.nih.gov/health/educational/lose_wt/risk.htm#limitations" target="new_">Limitations of B.M.I.</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Health_risk_assessment" target="new">Assesing Your Risk</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Weight_loss" target=" blank">Controlling Your Weight</a></li>
+                    <li><a href="https://simple.wikipedia.org/wiki/Healthy_lifestyle" target="blank_">Healthy Life Style</a></li>
+                </ul>
+            </div>
+
+            <div class="qot_box">
+                <h2>"CLICHE QUOTES"</h2>
+                <p>-placeholder</p>
+            </div>
+
+            <div class="map_box">
+                <h3>MAP PLACEHOLDER</h3>
+                <img id="map_img" src="images/Map.png" alt="map_img">
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        *DISCLAIMER: Not to be used for real life application, this is a practice project!*
+        <br>
+        &copy; 🚵‍♀️HE@LTHIFY✔ 2021.
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
