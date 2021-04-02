@@ -1,6 +1,5 @@
 # practice_rep
-
-#This is practice repository. Some of my simple pratice pages are here!
+<br>UI/UX replicated from udemy course examples and some miscellaneous youtube videos, and also my personal ideas are here!
 
 #Links of the hosted sites will be updated here:
 
