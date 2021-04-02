@@ -166,6 +166,7 @@ button{
     padding: 0.25rem 0.5rem;
     border-radius: 0.5rem;
     width: 8rem;
+    margin: 0.5rem 0rem;
     background-color: rgba(235, 217, 217, 0.795);
 }
 
