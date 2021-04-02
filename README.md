@@ -3,7 +3,6 @@
 #This is practice repository. Some of my simple pratice pages are here!
 
 #Links of the hosted sites will be updated here:
-#All the pages are responsive!
 
 #au1 : https://s99c.github.io/practice_rep/au1/
 <br>
