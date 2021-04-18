@@ -1,7 +1,7 @@
 # practice_rep
 <br>UI/UX replicated from udemy examples and misc youtube videos, and also some personal ideas are here!
 
-#Links of the pages:
+#Links to the pages:
 
 #au1 : https://s99c.github.io/practice_rep/au1/
 <br>
