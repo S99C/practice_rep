@@ -1,5 +1,5 @@
 # practice_rep
-<br>UI/UX replicated from udemy course examples and some miscellaneous youtube videos, and also my personal ideas are here!
+<br>UI/UX replicated from udemy examples and misc youtube videos, and also some personal ideas are here!
 
 #Links of the pages:
 
