@@ -3,9 +3,9 @@
 
 #Links to the pages:
 
-#au1 : https://s99c.github.io/practice_rep/au1/
+#au1: https://s99c.github.io/practice_rep/au1/
 <br>
-#kevin_p : https://s99c.github.io/practice_rep/kevin_p/
+#kevin_p: https://s99c.github.io/practice_rep/kevin_p/
 <br>
 #dicy(dice_game): https://s99c.github.io/practice_rep/dicy/
 <br>
