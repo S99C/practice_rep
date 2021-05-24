@@ -1,0 +1,19 @@
+{
+  "name": "project_healthify",
+  "version": "1.0.0",
+  "description": "Demo/Personal Project: A website to get motivated, find exercising centers around you, check bmi and learn more about your body to be haelthy.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "s99c"
+  },
+  "author": "Cap_Sap",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
