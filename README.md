@@ -1,13 +1,11 @@
 # practice_rep
+<br>UI/UX replicated from udemy examples and misc youtube videos, and also some personal ideas are here!
 
-#This is practice repository. Some of my simple pratice pages are here!
+#Links to the pages:
 
-#Links of the hosted sites will be updated here:
-#All the pages are responsive!
-
-#au1 : https://s99c.github.io/practice_rep/au1/
+#au1: https://s99c.github.io/practice_rep/au1/
 <br>
-#kevin_p : https://s99c.github.io/practice_rep/kevin_p/
+#kevin_p: https://s99c.github.io/practice_rep/kevin_p/
 <br>
 #dicy(dice_game): https://s99c.github.io/practice_rep/dicy/
 <br>

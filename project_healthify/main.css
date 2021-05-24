@@ -15,9 +15,9 @@ footer{
 }
 
 body{
-    background-image: url("images/main_bg.jpg");
-    /* background-image: url(https://images.pexels.com/photos/17840/pexels-photo.jpg?cs=srgb&dl=pexels-binyamin-mellish-17840.jpg&fm=jpg); */
-    /* background-image: url(https://images.pexels.com/photos/116077/pexels-photo-116077.jpeg?cs=srgb&dl=pexels-binyamin-mellish-116077.jpg&fm=jpg); */
+    /*background-image: url("images/main_bg.jpg");*/
+    /*background-image: url(https://images.pexels.com/photos/17840/pexels-photo.jpg?cs=srgb&dl=pexels-binyamin-mellish-17840.jpg&fm=jpg);*/
+    background-image: url(https://images.pexels.com/photos/116077/pexels-photo-116077.jpeg?cs=srgb&dl=pexels-binyamin-mellish-116077.jpg&fm=jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
