@@ -23,3 +23,13 @@ function calc_bmi() {
         $("output")[0].innerText = "Enter Values";
     }
 }
+
+let map;
+var coords = { lat: 23.19, lng: 87.87 };
+
+function initMap() {
+    map = new google.maps.Map(document.getElementById("map"), {
+        center: coords,
+        zoom: 8,
+    });
+}

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>Healthify</title>
 </head>
 
@@ -49,7 +49,7 @@
                     </label>
                     <button type="button" id="calc" onkeypress="key_evt(event, this)"
                         onclick="calc_bmi()">Calculate</button>
-                    <button type="button" id="rfsh" onclick="refreshPage()">Refresh</button>
+                    <button type="button" id="rfsh" onclick="refreshPage()">Reset</button>
                 </form>
 
                 <ul>
@@ -70,22 +70,40 @@
                 <p>-placeholder</p>
             </div>
 
-            <div class="map_box">
-                <h3>MAP PLACEHOLDER</h3>
-                <img id="map_img" src="images/Map.png" alt="map_img">
+            <div id="map">
+
+                <!-- <h3>MAP PLACEHOLDER</h3> -->
+                <!-- <img id="map_img" src="images/Map.png" alt="map_box"> -->
+
+                <!-- ********************************************************************* -->
+                <!-- SEARCH BOX BUTTON DISABLED -->
+                <!-- <form action="/" method="POST">
+                    <input type="text" name="gymloc" id="gym-loc" placeholder="Search 🌎">
+                    <br>
+                    <button type="submit" value="submit-button" id="lob-sub">Search</button>
+                </form> -->
+                <!-- ********************************************************************* -->
+
+                <!-- *Inline gmap -->
+                <script async
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkxAGTg655C9vpp3CUCDC1oVbgKBZ5PQc&libraries=places&callback=initMap">
+                </script>
+
             </div>
         </section>
 
     </div>
 
     <footer>
-        *DISCLAIMER: Not to be used for real life application, this is a demo website/personal project!*
+        *DISCLAIMER: Not to be used for medical purpose, this is purely a demo website/personal project!*
         <br>
         &copy; 🚵‍♀️HE@LTHIFY✔ 2021.
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="script.js"></script>
+    <script src="script/script.js"></script>
+    </script>
+
 </body>
 
 </html>
